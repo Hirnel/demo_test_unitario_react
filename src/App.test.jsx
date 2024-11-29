@@ -28,8 +28,9 @@ describe("App", () => {
   it('Learn React link has href', () => {
     render(<App />);
     const linkElement = screen.getByText(/learn react/i);
-    expect(linkElement).toHaveAttribute('href', 'https://bolito.dev');
+    expect(linkElement).toHaveAttribute('href', 'https://react.dev');
   });
+  //BOLITO TE QUEREMOS INFINITO TIO //
 
   it("Aprendre React is inside a link", () => {
     const { container } = render(<App title="React" />);

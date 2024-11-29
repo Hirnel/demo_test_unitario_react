@@ -14,6 +14,7 @@ function App() {
 
   return (
     <>
+    <h1>Bolito despplegado con ci/dc</h1>
       <div>
         <a href="https://vitejs.dev">
           <img src={viteLogo} className="logo" alt="Vite logo" />
